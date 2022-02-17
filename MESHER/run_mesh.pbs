@@ -1,0 +1,4 @@
+# Sample PBS for serial jobs
+#PBS -l nodes=node01:ppn=1,walltime=05:00:00
+cd /home/yin/axisem/MESHER 
+./xmesh > OUTPUT 
