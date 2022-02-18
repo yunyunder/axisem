@@ -24,3 +24,4 @@ conda activate conda_yin
 `USED_MAG/` magma chamber with different depth, velocity  
 `CMT/` eqrthquake events CMTSOLUSION
 
+

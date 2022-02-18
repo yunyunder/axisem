@@ -1,6 +1,6 @@
 # AxiSEM 1.3
 
-##modify to magma simulation works
+## modify to magma simulation works
 yin 2022/02/18
 `Magma_set` - create 3D spherical magma for 2D simulations  
 See `Magma_set/README.md` for detail  
