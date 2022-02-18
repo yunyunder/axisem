@@ -1,25 +1,18 @@
-<<<<<<< HEAD
-#AxiSEM 1.3
- 
-##Axially symmetric Spectral Element Method
+# AxiSEM 1.3
 
-Copyright 2016, Tarje Nissen-Meyer, Martin van Driel, Simon Stähler, Kasra Hosseini, Stefanie Hempel, Alexandre Fournier
-=======
-# AxiSEM 1.4 [![Build Status](https://travis-ci.org/geodynamics/axisem.svg?branch=master)](https://travis-ci.org/geodynamics/axisem)
+##modify to magma simulation works
+yin 2022/02/18
+`Magma_set` - create 3D spherical magma for 2D simulations  
+See `Magma_set/README.md` for detail  
 
 ## Axially symmetric Spectral Element Method
 
-Copyright 2018, Tarje Nissen-Meyer, Martin van Driel, Simon Stähler, Kasra Hosseini, Stefanie Hempel, Lion Krischer, Alexandre Fournier
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
+Copyright 2016, Tarje Nissen-Meyer, Martin van Driel, Simon Stähler, Kasra Hosseini, Stefanie Hempel, Alexandre Fournier
 
 Webpage and distribution: http://www.axisem.info
 Contact and information:  info@axisem.info
 
-<<<<<<< HEAD
 April, 11, 2016 
-=======
-April, 13, 2018 
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 
 ## Citation
 If you are publishing results obtained with this code, please cite this paper:
@@ -29,21 +22,12 @@ T. Nissen-Meyer, M. van Driel, S. C. Staehler, K. Hosseini, S. Hempel, L. Auer, 
 doi:10.5194/se-5-425-2014 http://www.solid-earth.net/5/425/2014/
 
 ## Content of the repository
-<<<<<<< HEAD
 `manual_axisem_1.3.pdf` - PDF manual
-=======
-`manual_axisem_1.4.pdf` - PDF manual
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 
 `MESHER` - The program to generate 2D meshes for the SEM forward solver
 
 `SOLVER` - the SEM forward solver itself
 
-<<<<<<< HEAD
-=======
-`submit.py` - a Python script to create an Instaseis database
-
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 `make_axisem.macros` - macro file to set compiler options
 
 `copytemplates.sh` - reset all input files to default templates 
@@ -54,11 +38,7 @@ doi:10.5194/se-5-425-2014 http://www.solid-earth.net/5/425/2014/
 
 `README` - this file
 
-<<<<<<< HEAD
-##Basic instructions for running:
-=======
 ## Basic instructions for running:
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 
 More details are found in the manual. For a quick start:
 
@@ -72,11 +52,6 @@ More details are found in the manual. For a quick start:
 General settings and explanations for parameters needed in MESHER and SOLVER 
 are found in the `inparam_*` files in the respective directories. 
 
-<<<<<<< HEAD
-=======
-To create Instaseis databases quickly, run the script submit.py in the main directory.
-
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 1) Run `copytemplates.sh` to set up a generic run with pre-set parameters
 
 2) Go into the MESHER directory, run `./submit.csh`. This compiles the code using
@@ -103,10 +78,6 @@ of RAM, see manual.
     a Python toolbox to retrieve seismograms for arbitrary depths and moment
     tensors from the stored wavefield of one AxiSEM run (http://www.instaseis.net)
 
-<<<<<<< HEAD
 Detailed instructions can be found in the file `manual_axisem_1.3.pdf`
-=======
-Detailed instructions can be found in the file `manual_axisem_1.4.pdf`
->>>>>>> 572e2fc237182c0cc262ce1c5d2b10214c1f3b57
 
 
