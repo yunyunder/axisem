@@ -57,9 +57,11 @@ __pycache__
 MESHER/gitversion.h
 Makefile
 SOLVER/gitversion.h
-
+Magma_set/r*
 Magma_set/Loop_magma/pack*
 Magma_set/Loop_magma/PACK*
 Magma_set/Loop_magma/PLOT*
 Magma_set/Loop_magma/tmp*
 Magma_set/Loop_magma/gmt*
+Magma_set/Loop_magma/*put
+Magma_set/Loop_magma/dv.cpt

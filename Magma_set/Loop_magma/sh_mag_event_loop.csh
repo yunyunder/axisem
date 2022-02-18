@@ -5,7 +5,7 @@ gmt set MAP_FRAME_TYPE plain
 gmt set FORMAT_GEO_MAP .x
 gmt set FONT 12p
 
-set loop_path = /home/yin/Magma_set/Loop_magma
+set loop_path = /home/yin/axisem/Magma_set/Loop_magma
 set axi_path = /home/yin/axisem/SOLVER
 
 set slon = 121.5659
@@ -42,8 +42,8 @@ set mag = r_10_d_15_dvp_-19.0_dvs_-33.0
     set title = `echo $mag | awk -F'_' '{print "Vp= "$6"%, Vs= "$8"%"}'`
     set subtitle = `echo $mag | awk -F'_' '{print "Radius="$2"km, Depth="$4"km" }'`
 
-    foreach event (`cat event_list`)
-    #set event = 20190312_20
+    #foreach event (`cat event_list`)
+    set event = 20190312_20
     #set event = 20151128_00
 
         #set elon = `grep longitude USED_CMT/$event | awk '{print $2}' `
